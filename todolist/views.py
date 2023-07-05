@@ -13,4 +13,5 @@ class TaskDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
 
+
 # Create your views here.
